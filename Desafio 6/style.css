@@ -1,0 +1,38 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+h3:after{
+  content: "coding";
+  color: white;
+  background-color: blue;
+  width: fit-content;
+  height: 35px;
+  padding: 5px;
+  animation: 4s swap infinite;
+  margin-left:3px;
+  border-radius: 5px;
+}
+
+@keyframes swap{
+  0% {
+    content: "music!";
+  } 25% {
+    content: "films!";
+  } 50% {
+    content: 'Cats!';
+  } 75% {
+    content: "games!";
+  } 100% {
+    content: 'coding!';
+  }
+}

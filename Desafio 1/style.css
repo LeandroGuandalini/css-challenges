@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(53, 53, 53);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.button {
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 1em 1.5em;
+  letter-spacing: .1 em;
+  border-image: linear-gradient(115deg, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
+  border-image-slice: 1;
+}
+
+.button:hover{
+  padding: 1.1em 1.6em;
+  border-image: linear-gradient(230deg, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
+  border-image-slice: 1;
+}
